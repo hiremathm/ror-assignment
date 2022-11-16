@@ -10,7 +10,7 @@ class ::Api::V1::SlotsController < Api::ApplicationController
 
 	def create
 		slot = Slot.new(slots_params)
-		#converting time to IST, because time is getting saved in UTC format
+		#converting time to IST, because time is getting saved in UTC format so making it to IST
 		slot.start_time = slot.start_time + 5.hours + 30.minutes
 		slot.end_time = slot.end_time + 5.hours + 30.minutes
 		if slot.save
