@@ -11,6 +11,6 @@ class User < ApplicationRecord
 	end
 
 	def validates_mobile_number_with_length_10
-		mobile.length == 9		
+		mobile.length == 10		
 	end
 end
