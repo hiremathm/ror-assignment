@@ -25,4 +25,16 @@ class User < ApplicationRecord
 	def method3
 		
 	end
+
+	def method4
+		
+	end
+
+	def method5
+		
+	end
+
+	def method6
+		
+	end
 end
