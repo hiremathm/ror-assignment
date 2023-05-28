@@ -10,7 +10,7 @@ class User < ApplicationRecord
 		email =~ REGEX_PATTERN
 	end
 
-	def validates_mobile
+	def validates_mobile_with_number_length_8
 		
 	end
 end
