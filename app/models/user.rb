@@ -13,4 +13,8 @@ class User < ApplicationRecord
 	def validates_mobile_number_with_length_10
 		mobile.length == 10		
 	end
+
+	def method1
+		
+	end
 end
