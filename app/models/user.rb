@@ -21,4 +21,8 @@ class User < ApplicationRecord
 	def method2
 		
 	end
+
+	def method3
+		
+	end
 end
