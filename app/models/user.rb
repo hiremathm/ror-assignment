@@ -47,10 +47,10 @@ class User < ApplicationRecord
 	end
 
 	def method_9
-		"method 9"
+		return "method 9"
 	end
 
 	def method_10
-		"method 10"
+		return "method 10"
 	end
 end
