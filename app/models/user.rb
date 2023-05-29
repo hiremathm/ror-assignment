@@ -51,6 +51,6 @@ class User < ApplicationRecord
 	end
 
 	def method_10
-		"method 10"
+		return "method 10"
 	end
 end
