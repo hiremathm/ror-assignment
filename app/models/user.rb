@@ -37,4 +37,20 @@ class User < ApplicationRecord
 	def method6
 		
 	end
+
+	def method7
+		
+	end
+
+	def method_8
+		"method 8"
+	end
+
+	def method_9
+		"method 9"
+	end
+
+	def method_10
+		"method 10"
+	end
 end
