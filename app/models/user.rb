@@ -39,7 +39,7 @@ class User < ApplicationRecord
 	end
 
 	def method7
-		
+		return "method 7"
 	end
 
 	def method_8
