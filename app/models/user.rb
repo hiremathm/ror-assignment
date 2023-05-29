@@ -15,11 +15,11 @@ class User < ApplicationRecord
 	end
 
 	def method1
-		return "test method 1"
+		"dont return mehotd 1"
 	end
 
 	def method2
-		return "test method 2"
+		"dont return method 2"
 	end
 
 	def method3
