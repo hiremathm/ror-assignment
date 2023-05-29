@@ -27,7 +27,7 @@ class User < ApplicationRecord
 	end
 
 	def method4
-		
+		return "method 4"
 	end
 
 	def method5
