@@ -23,7 +23,7 @@ class User < ApplicationRecord
 	end
 
 	def method3
-		return "method 3"
+		return "test method 3"
 	end
 
 	def method4
